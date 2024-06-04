@@ -3,6 +3,7 @@
 ## Tentang Aplikasi Persuratan E-Letter
 
 Aplikasi Persuratan ini digunakan untuk Sekolah SMA Sederajat, terkoneksi dengan data dapodik. Keuntungan dari aplikasi yang terhubung dengan dapodik ini adalah data yang ada bisa tersinkronisasi dengan dapodik dan karena ketergantungan dengan dapodik, data sumber dapodik bisa diperiksa, diperbaharui dan dijadikan sebagai satu sumber data. 
+
 Aplikasi ini digunakan untuk mengelola dan mengarsip surat masuk dan keluar, serta mengirimkan disposisi melalui pesan Whatsapp langsung ke pegawai yang bersangkutan, sehingga catatan arsip disposisi dapat didokumentasikan dengan cepat. Mengelola dan mencari data dengan cepat dan akurat.
 
 - 
