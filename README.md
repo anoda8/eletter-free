@@ -2,15 +2,29 @@
 
 ## Tentang Aplikasi Persuratan E-Letter
 
-Aplikasi Persuratan ini digunakan untuk Sekolah SMA Sederajat, terkoneksi dengan data dapodik. Keuntungan dari aplikasi yang terhubung dengan dapodik ini adalah data yang ada bisa tersinkronisasi dengan dapodik dan karena ketergantungan dengan dapodik, data sumber dapodik bisa diperiksa, diperbaharui dan dijadikan sebagai satu sumber data. 
+Aplikasi Persuratan ini digunakan untuk Sekolah SMA Sederajat yang terkoneksi dengan data dapodik. Keuntungan dari aplikasi yang terhubung dengan dapodik ini adalah data yang ada bisa tersinkronisasi dengan dapodik dan karena ketergantungan dengan dapodik, data sumber dapodik bisa diperiksa, diperbaharui dan dijadikan sebagai satu sumber data. 
 
-Aplikasi ini digunakan untuk mengelola dan mengarsip surat masuk dan keluar, serta mengirimkan disposisi melalui pesan Whatsapp langsung ke pegawai yang bersangkutan, sehingga catatan arsip disposisi dapat didokumentasikan dengan cepat. Mengelola dan mencari data dengan cepat dan akurat.
+Aplikasi ini digunakan untuk mengelola dan mengarsip surat masuk dan keluar, serta mengirimkan disposisi melalui pesan Whatsapp langsung ke pegawai yang bersangkutan, sehingga catatan arsip disposisi dapat didokumentasikan dengan cepat. Serta dapat mengelola dan mencari data dengan cepat dan akurat.
 
-- 
+## Fitur Free
+### Arsip Surat
+- Surat Masuk
+- Surat Keluar
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Format Surat
+- Format Surat Keterangan Siswa
 
-## Learning Laravel
+### Pesan Whatsapp
+- Registrasi Nomor Whatsapp Siswa
+- Kirim Pesan Whatsapp
+- Riwayat Pesan
+
+### Database
+- Biodata Pegawai
+- Biodata Siswa
+- Klasifikasi Surat berdasarkan Peraturan Gubernur Jawa Tengah nomor 53 Tahun 2012
+
+
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
