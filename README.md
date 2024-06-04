@@ -6,51 +6,45 @@ Aplikasi Persuratan ini digunakan untuk Sekolah SMA Sederajat yang terkoneksi de
 
 Aplikasi ini digunakan untuk mengelola dan mengarsip surat masuk dan keluar, serta mengirimkan disposisi melalui pesan Whatsapp langsung ke pegawai yang bersangkutan, sehingga catatan arsip disposisi dapat didokumentasikan dengan cepat. Serta dapat mengelola dan mencari data dengan cepat dan akurat.
 
-## Fitur Free
+## Fitur
 ### Arsip Surat
 - Surat Masuk
 - Surat Keluar
 
 ### Format Surat
 - Format Surat Keterangan Siswa
+- Format Surat Tugas (Berbayar)
+- (Format Surat Sesuai dengan permintaan) (Berbayar)
 
 ### Pesan Whatsapp
 - Registrasi Nomor Whatsapp Siswa
 - Kirim Pesan Whatsapp
 - Riwayat Pesan
 
+### Add On
+- Buku Tamu QR-Code dengan Kamera, terhubung dengan pesan Whatsapp (Berbayar)
+
 ### Database
 - Biodata Pegawai
 - Biodata Siswa
 - Klasifikasi Surat berdasarkan Peraturan Gubernur Jawa Tengah nomor 53 Tahun 2012
+- Catatan Disposisi
+- Users
+- Jabatan
 
+### Referensi Data
+- Data Sekolah
+- Data GTK
+- Data Siswa
 
+### Izin Akses
+- Permission
+- Permission Role
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### Pengaturan
+- Koneksi Dapodik
+- Sinkronisasi Dapodik
+- Aplikasi
 
 ## Contributing
 
