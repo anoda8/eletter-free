@@ -1,0 +1,129 @@
+// If you want to override variables do it here
+@import "variables";
+
+$enable-ltr: true; /* stylelint-disable-line scss/dollar-variable-default */
+$enable-rtl: true; /* stylelint-disable-line scss/dollar-variable-default */
+
+// Import styles
+@import "@coreui/coreui/scss/coreui";
+
+@import "layout";
+
+// If you want to add custom CSS you can put it here.
+@import "custom";
+
+
+.colored-toast.swal2-icon-success {
+    background-color: #4043ff !important;
+    opacity: 0.7;
+}
+
+.colored-toast.swal2-icon-error {
+background-color: #f27474 !important;
+}
+
+.colored-toast.swal2-icon-warning {
+background-color: #f8bb86 !important;
+}
+
+.colored-toast.swal2-icon-info {
+background-color: #3fc3ee !important;
+}
+
+.colored-toast.swal2-icon-question {
+background-color: #87adbd !important;
+}
+
+.colored-toast .swal2-title {
+color: white;
+}
+
+.colored-toast .swal2-close {
+color: white;
+}
+
+.colored-toast .swal2-html-container {
+color: white;
+}
+
+//custom
+.cur-pointer{
+    cursor: pointer;
+}
+
+.required::after {
+    content: ' *';
+    color: red;
+}
+
+//List Group Check BOX
+
+.list-group-item {
+user-select: none;
+}
+
+.list-group input[type="checkbox"] {
+display: none;
+}
+
+.list-group input[type="checkbox"] + .list-group-item {
+cursor: pointer;
+}
+
+.list-group input[type="checkbox"] + .list-group-item:before {
+content: "\2713";
+color: transparent;
+font-weight: bold;
+margin-right: 1em;
+}
+
+.list-group input[type="checkbox"]:checked + .list-group-item {
+background-color: #0275D8;
+color: #FFF;
+}
+
+.list-group input[type="checkbox"]:checked + .list-group-item:before {
+color: inherit;
+}
+
+.list-group input[type="radio"] {
+display: none;
+}
+
+.list-group input[type="radio"] + .list-group-item {
+cursor: pointer;
+}
+
+.list-group input[type="radio"] + .list-group-item:before {
+content: "\2022";
+color: transparent;
+font-weight: bold;
+margin-right: 1em;
+}
+
+.list-group input[type="radio"]:checked + .list-group-item {
+background-color: #0275D8;
+color: #FFF;
+}
+
+.list-group input[type="radio"]:checked + .list-group-item:before {
+color: inherit;
+}
+
+.list-group label{
+margin-left: 10px;
+}
+
+
+.link-object:hover{
+background-color: black;
+color: #FFF;
+}
+
+.table-danger {
+    background-color: pink;
+}
+
+
+
+
