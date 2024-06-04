@@ -46,7 +46,10 @@ Aplikasi ini digunakan untuk mengelola dan mengarsip surat masuk dan keluar, ser
 - Sinkronisasi Dapodik
 - Aplikasi
 
-## Contributing
+### [Dalam Pengembangan]
+- Agenda Kegiatan
+- Laporan Kegiatan
+
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 

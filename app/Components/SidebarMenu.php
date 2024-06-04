@@ -69,28 +69,10 @@ class SidebarMenu extends Component
                 'children' => [
                     [
                         'show' => true,
-                        'text' => "Surat Tugas",
-                        'url' => route('format.surat-tugas'),
-                        'icon' => 'notes',
-                    ],
-                    [
-                        'show' => true,
                         'text' => "Keterangan Siswa",
                         'url' => route('format.surat-keterangan-siswa'),
                         'icon' => 'notes',
                     ],
-                    // [
-                    //     'show' => true,
-                    //     'text' => "Dispensasi Siswa",
-                    //     'url' => route('referensi.data-sekolah'),
-                    //     'icon' => 'notes',
-                    // ],
-                    // [
-                    //     'show' => true,
-                    //     'text' => "Surat Pengantar",
-                    //     'url' => route('referensi.data-sekolah'),
-                    //     'icon' => 'notes',
-                    // ],
                 ]
             ],
             [
@@ -119,39 +101,6 @@ class SidebarMenu extends Component
                         'icon' => 'history',
                     ],
                 ]
-            ],
-            [
-                'nav-title' => (config('eletter.addon_settings') && $this->user->isAbleTo('menu-buku-tamu')),
-                'text' => "Add Ons"
-            ],
-            [
-                'show' => (config('eletter.addon_pengumuman_kelulusan') && $this->user->isAbleTo('menu-kelulusan')),
-                'text' => "Kelulusan",
-                'url' => '#',
-                'icon' => 'envelope-closed',
-                'opened_menu' => false,
-                'children' => [
-                    [
-                        'show' => true,
-                        'text' => "Upload File",
-                        'url' => route('addons.pengumuman-lulus-upload'),
-                        'icon' => 'cloud-upload',
-                    ],
-                    [
-                        'show' => true,
-                        'text' => "Pengaturan",
-                        'url' => route('addons.pengaturan-pengumuman-lulus'),
-                        'icon' => 'cog',
-                    ],
-                ],
-            ],
-            [
-                'show' => (config('eletter.addon_bukutamu') && $this->user->isAbleTo('menu-buku-tamu')),
-                'text' => "Buku Tamu",
-                'url' => route('addons.bukutamu-manage'),
-                'icon' => 'address-book',
-                'opened_menu' => false,
-                'children' => false
             ],
             [
                 'nav-title' => $this->user->isAbleTo('menu-database|menu-referensi-data'),
@@ -220,33 +169,6 @@ class SidebarMenu extends Component
             [
                 'nav-title' => $this->user->isAbleTo('menu-pengaturan|menu-pencadangan|menu-izin-akses'),
                 'text' => "Pengaturan"
-            ],
-            [
-                'show' => $this->user->isAbleTo('menu-pencadangan'),
-                'text' => "Pencadangan",
-                'url' => route('arsip.keluar'),
-                'icon' => 'storage',
-                'opened_menu' => false,
-                'children' => [
-                    [
-                        'show' => true,
-                        'text' => "Surat Masuk",
-                        'url' => route('backup.arsip-masuk'),
-                        'icon' => 'envelope-open',
-                    ],
-                    [
-                        'show' => true,
-                        'text' => "Surat Keluar",
-                        'url' => route('backup.arsip-keluar'),
-                        'icon' => 'envelope-open',
-                    ],
-                    // [
-                    //     'show' => true,
-                    //     'text' => "Database SQL",
-                    //     'url' => route('referensi.data-sekolah'),
-                    //     'icon' => 'envelope-open',
-                    // ],
-                ]
             ],
             [
                 'show' => $this->user->isAbleTo('menu-izin-akses'),
