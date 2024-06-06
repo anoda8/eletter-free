@@ -137,6 +137,18 @@ class SidebarMenu extends Component
                         'url' => route('settings.catatan-disposisi'),
                         'icon' => 'basket',
                     ],
+                    [
+                        'show' => true,
+                        'text' => "Jabatan",
+                        'url' => route('settings.jabatan'),
+                        'icon' => 'library-building',
+                    ],
+                    [
+                        'show' => true,
+                        'text' => "Users",
+                        'url' => route('settings.users'),
+                        'icon' => 'people',
+                    ],
                 ]
             ],
             [
@@ -209,18 +221,6 @@ class SidebarMenu extends Component
                         'text' => "Sinkronisasi Dapodik",
                         'url' => route('settings.sinkronisasi-dapodik'),
                         'icon' => 'sync',
-                    ],
-                    [
-                        'show' => true,
-                        'text' => "Jabatan",
-                        'url' => route('settings.jabatan'),
-                        'icon' => 'library-building',
-                    ],
-                    [
-                        'show' => true,
-                        'text' => "Users",
-                        'url' => route('settings.users'),
-                        'icon' => 'people',
                     ],
                     [
                         'show' => true,

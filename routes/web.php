@@ -54,10 +54,10 @@ Route::group(['prefix' => 'arsip', 'middleware' => ['auth']], function() {
 });
 
 Route::group(['prefix' => 'format-surat', 'middleware' => ['auth']], function() {
-    Route::get('/surat-tugas', \App\FormatSurat\Pages\SuratTugas::class)->name('format.surat-tugas');
-    Route::get('/cetak-surat-tugas/{suratTugasId}', [\App\FormatSurat\Pages\CetakSuratTugas::class, 'cetak'])->name('format.cetak-surat-tugas');
-    Route::get('/tambah-surat-tugas', \App\FormatSurat\Pages\AddSuratTugas::class)->name('format.tambah-surat-tugas');
-    Route::get('/tambah-surat-tugas/{suratTugasId}', \App\FormatSurat\Pages\AddSuratTugas::class)->name('format.edit-surat-tugas');
+    // Route::get('/surat-tugas', \App\FormatSurat\Pages\SuratTugas::class)->name('format.surat-tugas');
+    // Route::get('/cetak-surat-tugas/{suratTugasId}', [\App\FormatSurat\Pages\CetakSuratTugas::class, 'cetak'])->name('format.cetak-surat-tugas');
+    // Route::get('/tambah-surat-tugas', \App\FormatSurat\Pages\AddSuratTugas::class)->name('format.tambah-surat-tugas');
+    // Route::get('/tambah-surat-tugas/{suratTugasId}', \App\FormatSurat\Pages\AddSuratTugas::class)->name('format.edit-surat-tugas');
     Route::get('/surat-keterangan-siswa', \App\FormatSurat\SuketSiswa\Pages\KeteranganSiswa::class)->name('format.surat-keterangan-siswa');
     Route::get('/detail-keterangan-siswa', \App\FormatSurat\SuketSiswa\Pages\DetailKeteranganSiswa::class)->name('format.detail-keterangan-siswa');
     Route::get('/detail-keterangan-siswa/{suketId?}', \App\FormatSurat\SuketSiswa\Pages\DetailKeteranganSiswa::class)->name('format.detail-keterangan-siswa');
@@ -110,18 +110,18 @@ Route::group(['prefix' => 'izin-akses', 'middleware' => ['auth']], function() {
     Route::delete('/roles/{roleId}/hapus', [\App\IzinAkses\Roles::class, 'delete'])->name('izin-akses.roles-delete');
 });
 
-Route::group(['prefix' => 'backup', 'middleware' => ['auth']], function() {
-    Route::get('/arsip-masuk', \App\Backup\Pages\ArsipMasuk\BackupArsipMasuk::class)->name('backup.arsip-masuk');
-    Route::get('/arsip-keluar', \App\Backup\Pages\ArsipKeluar\BackupArsipKeluar::class)->name('backup.arsip-keluar');
-});
+// Route::group(['prefix' => 'backup', 'middleware' => ['auth']], function() {
+//     Route::get('/arsip-masuk', \App\Backup\Pages\ArsipMasuk\BackupArsipMasuk::class)->name('backup.arsip-masuk');
+//     Route::get('/arsip-keluar', \App\Backup\Pages\ArsipKeluar\BackupArsipKeluar::class)->name('backup.arsip-keluar');
+// });
 
-Route::group(['prefix' => 'addons', 'middleware' => ['auth']], function() {
-    Route::get('/bukutamu-manage', \App\Bukutamu\Pages\ManageBukutamu::class)->name('addons.bukutamu-manage');
-    Route::get('/pengumuman-lulus', \App\PengumumanLulus\Pages\UploadFile::class)->name('addons.pengumuman-lulus-upload');
-    Route::get('/pengumuman-lulus/{pengLulusId}', \App\PengumumanLulus\Pages\DetailSiswa::class)->name('addons.pengumuman-lulus-detail');
-    Route::get('/setting-pengumuman-lulus', \App\PengumumanLulus\Pages\Pengaturan::class)->name('addons.pengaturan-pengumuman-lulus');
-    Route::get('/setting-pengumuman-lulus/{pengLulusId}', \App\PengumumanLulus\Pages\DetailPengaturan::class)->name('addons.detail-pengaturan-pengumuman-lulus');
-});
+// Route::group(['prefix' => 'addons', 'middleware' => ['auth']], function() {
+//     Route::get('/bukutamu-manage', \App\Bukutamu\Pages\ManageBukutamu::class)->name('addons.bukutamu-manage');
+//     Route::get('/pengumuman-lulus', \App\PengumumanLulus\Pages\UploadFile::class)->name('addons.pengumuman-lulus-upload');
+//     Route::get('/pengumuman-lulus/{pengLulusId}', \App\PengumumanLulus\Pages\DetailSiswa::class)->name('addons.pengumuman-lulus-detail');
+//     Route::get('/setting-pengumuman-lulus', \App\PengumumanLulus\Pages\Pengaturan::class)->name('addons.pengaturan-pengumuman-lulus');
+//     Route::get('/setting-pengumuman-lulus/{pengLulusId}', \App\PengumumanLulus\Pages\DetailPengaturan::class)->name('addons.detail-pengaturan-pengumuman-lulus');
+// });
 
 Route::get('/registrasi-nomor/{biodataSiswaId}', \App\Mobile\Pages\RegistrasiNomorWhatsapp::class)->name('whatsapp.registrasi-nomor');
 Route::get('/verifikasi-akun-siswa', \App\Mobile\Pages\VerifikasiUserSiswa::class)->name('mobile.verifikasi-user-siswa');
@@ -145,4 +145,4 @@ Route::get('/setting-super', \App\Settings\Pages\SettingAplikasiSuper::class)->n
 
 //AddOns
 //--BukuTamu
-Route::get('/bukutamu', \App\Mobile\Bukutamu\InputBukutamu::class)->name('bukutamu');
+// Route::get('/bukutamu', \App\Mobile\Bukutamu\InputBukutamu::class)->name('bukutamu');
