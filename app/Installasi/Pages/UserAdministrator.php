@@ -4,6 +4,7 @@ namespace App\Installasi\Pages;
 
 use App\Models\Permission;
 use App\Models\User;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Hash;
 use Livewire\Attributes\Validate;
 use Livewire\Component;
@@ -49,9 +50,13 @@ class UserAdministrator extends Component
             $superUser->givePermission($permission->name);
         }
 
+        Artisan::call("storage:link");
+
         $this->dispatch('show-alert', [
             'icon' => 'success', 'message' => "Suksess, User Administrator berhasil dibuat."
         ]);
+
+
 
         return $this->redirect('/installasi/mode-dapodik');
     }
