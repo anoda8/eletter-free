@@ -2,7 +2,7 @@
     {{-- In work, do what you enjoy. --}}
     <div class="card">
         <div class="card-header d-flex justify-content-between">
-            <h5>Catatan Disposisi</h5>
+            <h5 class="fw-bold">Catatan Disposisi</h5>
             <button class="btn btn-success btn-sm" role="button" data-bs-toggle="modal" data-bs-target="#modalTambahCatatan">
                 <svg style="width:17px;height:17px;">
                     <use xlink:href="{{ asset('icons/coreui.svg#cil-plus') }}"></use>

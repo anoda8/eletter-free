@@ -5,7 +5,7 @@
             <form method="POST" wire:submit="simpanKirimDisposisi" id="simpanKirimDisposisi">
                 <div class="card mb-3">
                     <div class="card-header d-flex justify-content-between">
-                        <h5>Disposisi Surat Masuk</h5>
+                        <h5 class="fw-bold">Disposisi Surat Masuk</h5>
                         @if ($suratMasuk->status !== 0)
                             @if (\Auth::check())
                                 @if (auth()->user()->biodataPegawai?->jenis_ptk_id_str != "Kepala Sekolah")

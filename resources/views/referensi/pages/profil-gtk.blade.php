@@ -80,7 +80,7 @@
     </div>
     <div class="card mt-3">
         <div class="card-header">
-            <h5>Riwayat Pendidikan Formal</h5>
+            <h5 class="fw-bold">Riwayat Pendidikan Formal</h5>
         </div>
         <div class="card-body">
             <div class="table-responsive">
@@ -111,7 +111,7 @@
     </div>
     <div class="card mt-3">
         <div class="card-header">
-            <h5>Riwayat Kepangkatan</h5>
+            <h5 class="fw-bold">Riwayat Kepangkatan</h5>
         </div>
         <div class="card-body">
             <div class="table-responsive">

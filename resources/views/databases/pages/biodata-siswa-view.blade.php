@@ -3,7 +3,7 @@
     <div class="card mb-3">
         <form method="POST" wire:submit="simpanDtSiswa">
             <div class="card-header d-flex justify-content-between">
-                <h5>{{ $siswa->nama }} [{{ $siswa->nama_rombel }}]</h5>
+                <h5 class="fw-bold">{{ $siswa->nama }} [{{ $siswa->nama_rombel }}]</h5>
                 <div>
                     <a class="btn btn-secondary btn-sm" href="{{ route('settings.biodata-siswa') }}" role="button">
                         <svg style="width:17px;height:17px;">

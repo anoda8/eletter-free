@@ -6,7 +6,7 @@
             @if ($tersimpan == true)
                 <div class="card">
                     <div class="card-header">
-                        <h5>Registrasi Sukses</h5>
+                        <h5 class="fw-bold">Registrasi Sukses</h5>
                     </div>
                     <div class="card-body">
                         <div class="text-center">
@@ -26,7 +26,7 @@
             <form method="POST" wire:submit="simpanBiodata">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Registrasi Nomor Whatsapp</h5>
+                        <h5 class="fw-bold">Registrasi Nomor Whatsapp</h5>
                     </div>
                     <div class="card-body">
                         <div class="mb-3">

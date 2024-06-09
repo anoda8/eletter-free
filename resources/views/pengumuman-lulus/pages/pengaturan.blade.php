@@ -4,7 +4,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    <h5>Setting Pengumuman Kelulusan</h5>
+                    <h5 class="fw-bold">Setting Pengumuman Kelulusan</h5>
                 </div>
                 <div class="card-body">
                     <a class="btn btn-success btn-sm mb-3" data-bs-toggle="modal" data-bs-target="#modalTambahPengaturan">

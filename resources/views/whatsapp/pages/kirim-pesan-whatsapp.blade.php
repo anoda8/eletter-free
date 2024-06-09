@@ -4,7 +4,7 @@
         <div class="col-md-8">
             <div class="card mb-3">
                 <div class="card-header d-flex justify-content-between">
-                    <h5>Kirim Pesan Masal</h5>
+                    <h5 class="fw-bold">Kirim Pesan Masal</h5>
                     <a href="{{ route('whatsapp.pesan-terkirim') }}" class="btn btn-sm btn-primary" wire:navigate>
                         <svg class="nav-icon" style="width:15px;height:15px;">
                             <use xlink:href="{{ asset('icons/coreui.svg#cil-envelope-closed') }}"></use>
@@ -51,7 +51,7 @@
         <div class="col-md-4">
             <div class="card mb-3">
                 <div class="card-header">
-                    <h5>Penghitung Pesan</h5>
+                    <h5 class="fw-bold">Penghitung Pesan</h5>
                 </div>
                 <div class="card-body">
                     <h6>1000/100000</h6>
@@ -59,7 +59,7 @@
             </div>
             <div class="card">
                 <div class="card-header">
-                    <h5>Siswa Terpilih</h5>
+                    <h5 class="fw-bold">Siswa Terpilih</h5>
                 </div>
                 <div class="card-body">
                 </div>

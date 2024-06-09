@@ -2,7 +2,7 @@
     {{-- Nothing in the world is as soft and yielding as water. --}}
     <div class="card">
         <div class="card-header d-flex justify-content-between">
-            <h5>Profil Siswa</h5>
+            <h5 class="fw-bold">Profil Siswa</h5>
             <a class="btn btn-secondary btn-sm" href="/referensi/data-siswa" role="button">
                 <svg style="width:17px;height:17px;">
                     <use xlink:href="{{ asset('icons/coreui.svg#cil-arrow-thick-left') }}"></use>

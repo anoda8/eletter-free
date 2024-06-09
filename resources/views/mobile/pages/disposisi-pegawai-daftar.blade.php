@@ -2,7 +2,7 @@
     {{-- Stop trying to control. --}}
     <div class="card">
         <div class="card-header">
-            <h5>Disposisi Surat Masuk</h5>
+            <h5 class="fw-bold">Disposisi Surat Masuk</h5>
             <h6>{{ auth()->user()->name }}</h6>
         </div>
         <div class="card-body">

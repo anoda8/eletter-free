@@ -2,7 +2,7 @@
     {{-- In work, do what you enjoy. --}}
     <div class="card mb-5">
         <div class="card-header">
-            <h5>Daftar Surat Masuk</h5>
+            <h5 class="fw-bold">Daftar Surat Masuk</h5>
         </div>
         <div class="card-body">
             <div class="d-flex justify-content-between">

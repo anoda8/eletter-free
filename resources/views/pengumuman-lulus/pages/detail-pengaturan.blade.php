@@ -4,7 +4,7 @@
         <div class="col-md-4">
             <div class="card mb-3">
                 <div class="card-header">
-                    <h5>Detail Pengumuman</h5>
+                    <h5 class="fw-bold">Detail Pengumuman</h5>
                 </div>
                 <div class="card-body">
                     <div class="mb-3">
@@ -19,7 +19,7 @@
             </div>
             <div class="card mb-3">
                 <div class="card-header">
-                    <h5>Pengumuman Kelulusan</h5>
+                    <h5 class="fw-bold">Pengumuman Kelulusan</h5>
                 </div>
                 <div class="card-body">
                     <div class="d-grid gap-2">
@@ -36,7 +36,7 @@
         <div class="col-md-8">
             <div class="card mb-3">
                 <div class="card-header">
-                    <h5>Surat Keterangan Lulus</h5>
+                    <h5 class="fw-bold">Surat Keterangan Lulus</h5>
                 </div>
                 <div class="card-body">
                     @if ($setPengLulus->ada_sk)
@@ -60,7 +60,7 @@
             <div class="modal-dialog modal-dialog-scrollable" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalUpload">Unggah SK</h5>
+                        <h5 class="modal-title fw-bold" id="modalUpload">Unggah SK</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -82,7 +82,7 @@
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalGantiTanggal">Ganti Waktu Pengumuman</h5>
+                    <h5 class="modal-title fw-bold" id="modalGantiTanggal">Ganti Waktu Pengumuman</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -102,11 +102,4 @@
             </div>
         </div>
     </div>
-
-
-    <!-- Optional: Place to the bottom of scripts -->
-    <script>
-        const myModal = new bootstrap.Modal(document.getElementById('modalGantiTanggal'), options)
-
-    </script>
 </div>

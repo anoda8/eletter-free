@@ -8,6 +8,7 @@
     <title>{{ \App\Models\SettingAplikasi::first() == null ? "E-Letter v2" : \App\Models\SettingAplikasi::first()->aplikasi_nama }}</title>
     <meta name="theme-color" content="#ffffff">
     @vite('resources/sass/app.scss')
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 </head>
 <body>
 

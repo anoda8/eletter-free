@@ -2,7 +2,7 @@
     {{-- Success is as dangerous as failure. --}}
     <div class="card text-start">
         <div class="card-header">
-            <h5>Referensi Data Sekolah</h5>
+            <h5 class="fw-bold">Referensi Data Sekolah</h5>
         </div>
         <div class="card-body">
             <div class="table-responsive">

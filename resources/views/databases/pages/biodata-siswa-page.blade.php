@@ -2,7 +2,7 @@
     {{-- The best athlete wants his opponent at his best. --}}
     <div class="card">
         <div class="card-header">
-            <h5>Biodata Siswa</h5>
+            <h5 class="fw-bold">Biodata Siswa</h5>
         </div>
         <div class="card-body">
             <div class="d-flex justify-content-end mb-2">

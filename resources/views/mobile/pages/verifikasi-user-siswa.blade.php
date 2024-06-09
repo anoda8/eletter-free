@@ -4,7 +4,7 @@
         <form method="POST" wire:submit="cekBiodata">
             <div class="card">
                 <div class="card-header">
-                    <h5>Periksa Data Siswa</h5>
+                    <h5 class="fw-bold">Periksa Data Siswa</h5>
                 </div>
                 <div class="card-body">
                     <div class="mb-3">
