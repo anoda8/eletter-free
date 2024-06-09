@@ -48,7 +48,7 @@
                     </form>
                 </div>
             </div>
-            <div class="card col-md-5 text-white bg-primary py-5">
+            <div class="card col-md-5 text-white py-5" style="background:url('images/bg-login.png')">
                 <div class="card-body text-center">
                     <img src="/storage/images/eletterv2.png" width="100px" height="100px">
                 </div>
