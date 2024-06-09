@@ -61,7 +61,7 @@
     <footer class="footer">
         <div>
             E-Letter V2.0
-            <a href="mailto:nosada29@gmail.com">nosada29@gmail.com</a>
+            <a href="mailto:unikarunnisa@gmail.com">unikarunnisa@gmail.com</a>
         </div>
         {{-- <div class="ms-auto">Powered by&nbsp;<a href="https://coreui.io/bootstrap/ui-components/">CoreUI UI
                 Components</a></div> --}}

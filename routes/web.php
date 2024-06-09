@@ -142,6 +142,8 @@ Route::get('/pdfviewer/{pdf}', [PdfViewer::class, 'index']);
 //setting super
 Route::get('/setting-super', \App\Settings\Pages\SettingAplikasiSuper::class)->name('setting.super')->middleware(['role:super']);
 
+//Contact Me
+Route::get('/contact-me', \App\Desktop\Pages\ContactPerson::class)->name('contact.person');
 
 //AddOns
 //--BukuTamu

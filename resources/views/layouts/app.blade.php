@@ -25,9 +25,9 @@
     <button class="sidebar-toggler" type="button" data-coreui-toggle="unfoldable"></button>
 </div>
 <div class="wrapper d-flex flex-column min-vh-100 bg-light">
-    <header class="header header-sticky mb-4">
+    <header class="header header-sticky bg-dark mb-4">
         <div class="container-fluid">
-            <button class="header-toggler px-md-0 me-md-3" type="button"
+            <button class="header-toggler px-md-0 me-md-3 text-white" type="button"
                     onclick="coreui.Sidebar.getInstance(document.querySelector('#sidebar')).toggle()">
                 <svg class="icon icon-lg">
                     <use xlink:href="{{ asset('icons/coreui.svg#cil-menu') }}"></use>
@@ -40,7 +40,7 @@
             </a>
             @if (!auth()->user()->hasRole('siswa'))
                 <ul class="header-nav d-none d-md-flex">
-                    <li class="nav-item"><a class="nav-link fw-bold" href="{{ route('dashboard') }}">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold text-white" href="{{ route('dashboard') }}">Dashboard</a></li>
                 </ul>
             @endif
             <ul class="header-nav ms-auto">
@@ -48,7 +48,7 @@
             </ul>
             <ul class="header-nav ms-3">
                 <li class="nav-item dropdown">
-                    <a class="nav-link py-0" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link py-0 text-white" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                         {{ Auth::user()->name }}
                     </a>
                     <div class="dropdown-menu dropdown-menu-end pt-0">
@@ -81,7 +81,7 @@
     <footer class="footer">
         <div>
             E-Letter V2.0
-            <a href="mailto:nosada29@gmail.com">nosada29@gmail.com</a>
+            <a href="mailto:unikarunnisa@gmail.com">unikarunnisa@gmail.com</a>
         </div>
         {{-- <div class="ms-auto">Powered by&nbsp;<a href="https://coreui.io/bootstrap/ui-components/">CoreUI UI
                 Components</a></div> --}}

@@ -50,4 +50,12 @@ Aplikasi ini digunakan untuk mengelola dan mengarsip surat masuk dan keluar, ser
 - Agenda Kegiatan
 - Laporan Kegiatan
 
+## Link Download
+- otw
 
+## Demo Aplikasi
+- otw
+
+## Kontak Kami
+- unikarunnisa@gmail.com
+- +6285869056554

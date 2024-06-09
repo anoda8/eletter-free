@@ -236,7 +236,19 @@ class SidebarMenu extends Component
                         'icon' => 'diamond',
                     ]
                 ]
-            ]
+            ],
+            [
+                'nav-title' => true,
+                'text' => "Tentang Aplikasi"
+            ],
+            [
+                'show' => true,
+                'text' => "Pengembang",
+                'url' => route('contact.person'),
+                'icon' => 'people',
+                'opened_menu' => false,
+                'children' => false
+            ],
         ];
         return $data;
     }
