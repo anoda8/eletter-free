@@ -50,7 +50,7 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label fw-bold">Password Database</label>
-                    <input type="text" class="form-control" wire:model="passwordDatabase" aria-describedby="helpId" placeholder="Password Database">
+                    <input type="password" class="form-control" wire:model="passwordDatabase" aria-describedby="helpId" placeholder="Password Database">
                     @error('passwordDatabase')
                         <div class="text-danger">{{ $message }}</div>
                     @enderror
