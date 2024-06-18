@@ -22,7 +22,7 @@
             <div class="col-md-6 {{ $errorMessage != null ? "" : "pt-4"}}">
                 <div class="mb-3">
                     <label class="form-label fw-bold">Nama Aplikasi</label>
-                    <input type="text" class="form-control" wire:model="namaAplikasi" aria-describedby="helpId" placeholder="E-Letter SMA Negeri Jawa Tengah">
+                    <input type="text" class="form-control" wire:model="namaAplikasi" aria-describedby="helpId" placeholder="E-Letter SMA Puncak Nusantara">
                     @error('namaAplikasi')
                         <div class="text-danger">{{ $message }}</div>
                     @enderror

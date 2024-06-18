@@ -17,7 +17,7 @@ class DisposisiKepsekTerkirim extends Component
     #[Layout('layouts.mobile')]
     public function render()
     {
-        $jmlSuratBaru = ArsipMasuk::where('status', 0)->get()->count();
+        $jmlSuratBaru = ArsipMasuk::where('status', null)->orWhere('status' , 0)->get()->count();
         return view('mobile.pages.disposisi-kepsek-terkirim', compact('jmlSuratBaru'));
     }
 }

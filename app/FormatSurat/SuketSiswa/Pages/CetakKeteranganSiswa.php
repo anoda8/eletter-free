@@ -20,6 +20,6 @@ class CetakKeteranganSiswa extends Component
             'kopSurat' => SettingKopSurat::first(),
         ];
         $pdf = Pdf::set_option('isHtml5ParserEnabled', false)->setPaper([0.0, 0.0, 612.00, 936.00], 'portrait')->loadView('format-surat.suket-siswa.pages.file-cetak-keterangan-siswa', compact('data', 'suratKeterangan'));
-        return $pdf->stream('surattugas.pdf');
+        return $pdf->stream('surat-keterangan-'.$suketId.'.pdf');
     }
 }
