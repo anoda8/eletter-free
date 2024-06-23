@@ -41,7 +41,7 @@
                     <h5 class="card-title fw-bold">Rp, 250.000</h5>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Kostum nomor Surat Keluar Keluar</li>
+                    <li class="list-group-item">Kostum nomor Surat Keluar </li>
                     <li class="list-group-item">Update / Perbaikan selama 1 Bulan</li>
                 </ul>
             </div>
@@ -53,7 +53,7 @@
                     <h5 class="card-title fw-bold">Rp, 800.000</h5>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Kostum nomor Surat Keluar Keluar</li>
+                    <li class="list-group-item">Kostum nomor Surat Keluar </li>
                     <li class="list-group-item">Cetak Disposisi Offline</li>
                     <li class="list-group-item">Surat Tugas</li>
                     <li class="list-group-item">Update / Perbaikan selama 1 Bulan</li>
@@ -67,7 +67,7 @@
                     <h5 class="card-title fw-bold">Rp, 1.000.000</h5>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Kostum nomor Surat Keluar Keluar</li>
+                    <li class="list-group-item">Kostum nomor Surat Keluar</li>
                     <li class="list-group-item">Cetak Disposisi Offline</li>
                     <li class="list-group-item">Surat Tugas</li>
                     <li class="list-group-item">Backup Surat</li>

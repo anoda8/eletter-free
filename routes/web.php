@@ -108,7 +108,6 @@ Route::group(['prefix' => 'izin-akses', 'middleware' => ['auth']], function() {
 
 Route::get('/registrasi-nomor/{biodataSiswaId}', \App\Mobile\Pages\RegistrasiNomorWhatsapp::class)->name('whatsapp.registrasi-nomor');
 Route::get('/verifikasi-akun-siswa', \App\Mobile\Pages\VerifikasiUserSiswa::class)->name('mobile.verifikasi-user-siswa');
-Route::get('/verifikasi-akun-siswa/pengumuman-kelulusan', \App\Mobile\Pages\VerifikasiUserSiswa::class)->name('mobile.verifikasi-user-siswa-pengumuman-lulus');
 
 Route::get('/dashboard', \App\Desktop\Pages\Dashboard::class)->name('dashboard')->middleware(['auth']);
 Route::get('/profile', \App\Desktop\Pages\Profile::class)->name('profile')->middleware(['auth']);
